@@ -34,10 +34,4 @@ targets:
     icon:
 #      90: haida-icon-small.png
       150: haida-512.png
-  osx:
-    codeSignId: "iOS Development"
-    provisioningProfileId: Test
-    packageId: no.uit.giella.keyboards.
-    bundleName: *bundleName
-    icon:
-      512: haida-512.png
+  osx: *AppleID
