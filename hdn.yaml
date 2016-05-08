@@ -66,6 +66,10 @@ modes:
     ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
     § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
 
+targets:
+  osx:
+    icon: haida-512.png
+
 # mobile keyboards properties:
 longpress:
   a: á ä
