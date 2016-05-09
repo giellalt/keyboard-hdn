@@ -2,7 +2,7 @@ internalName: hdn_keyboard
 
 locales:
   en:
-    name: &bundleName " Keyboards"
+    name: &bundleName "Northern Haida Keyboards"
     description: "Mobile OS keyboards for Northern Haida."
   hdn:
     name: "X̲aad Kíl"
