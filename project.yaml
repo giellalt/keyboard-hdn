@@ -21,7 +21,7 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.
+    packageId: no.uit.giella.keyboards.hdn
     icon: sami-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: sami_keyboard
@@ -29,7 +29,7 @@ targets:
   ios: &AppleID
     codeSignId: "iOS Development"
     provisioningProfileId: Test
-    packageId: no.uit.giella.keyboards.
+    packageId: no.uit.giella.keyboards.hdn
     bundleName: *bundleName
     icon:
 #      90: haida-icon-small.png
