@@ -1,0 +1,43 @@
+cat test/data/haida_grammar.utf8corpus.txt |grep "#"|cut -c3-|tr ' ' '\n'|grep '[a-z]'  |sed 's/\(.\)/\1 /g;'|sed 's/ ̲/̲/g;'|tr ' ' '\n'|tr '[A-Z]' '[a-z]'|sort|uniq -c|sort -nr
+
+9150 a
+7972 
+5964 g
+5691 l
+4862 n
+3502 á
+3036 ʼ
+2595 d
+1695 i
+1670 h
+1565 u
+1228 s
+1084 y
+1078 í
+ 980 t
+ 931 ä
+ 867 w
+ 642 j
+ 635 g̲
+ 552 k̲
+ 416 k
+ 357 e
+ 307 x
+ 301 ú
+ 203 x̲
+ 180 é
+ 100 o
+  88 m
+  77 .
+  40 =
+  29 b
+  28 -
+  27 Í
+  22 Á
+  20 r
+  17 c
+  13 v
+   6 p
+   2 f
+   1 /
+   
