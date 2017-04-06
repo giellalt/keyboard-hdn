@@ -11,7 +11,7 @@ locales:
 author: CILLDI, University of Alberta
 email: feedback@divvun.no
 
-copyright: (c) 2016 CILLDI
+copyright: (c) 2017 CILLDI
 organisation: University of Alberta
 
 layouts: [hdn]
@@ -22,9 +22,9 @@ build: 1
 targets:
   android:
     packageId: no.uit.giella.keyboards.hdn
-    icon: sami-icon.pdf
+    icon: hdn-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
-    keyAlias: sami_keyboard
+    keyAlias: hdn_keyboard
 
   ios: &AppleID
     codeSignId: "iOS Development"
@@ -32,6 +32,6 @@ targets:
     packageId: no.uit.giella.keyboards.hdn
     bundleName: *bundleName
     icon:
-#      90: haida-icon-small.png
-      150: haida-512.png
+#        90: hdn-icon-small.png
+        150: hdn-icon.png
   osx: *AppleID
