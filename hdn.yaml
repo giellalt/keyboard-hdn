@@ -2,9 +2,16 @@ internalName: hdn_keyboards
 
 displayNames:
   hdn: X̲aad Kíl
-  en: Northern Haida
+  hai: X̲aad Kíl
+  en:  Northern Haida
 
-locale: hdn
+# We use 'hai' here because 'hdn' is not known to the host OS's. It really does
+# not matter, the end result will be fine in any case, and the user experience
+# will be better because now the OS will present the keyboard with a sane
+# language instead of the language code. To quote Brendan Molloy:
+# «if you don't use HAI you end up in Others in macOS
+# it's better to be under the Haida category than Others surely»
+locale: hai
 
 modes:
 # mobile layouts:
