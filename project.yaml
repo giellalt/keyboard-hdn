@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.hdn
     bundleName: *bundleName
     icon: images/hdn-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/hdn-icon.png
+    codeSignId: "my-test-installer"
