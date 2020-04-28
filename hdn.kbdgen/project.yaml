@@ -1,0 +1,11 @@
+locales:
+  en:
+    name: Northern Haida Keyboards
+    description: Mobile OS keyboards for Northern Haida.
+  hdn:
+    name: X̲aad Kíl
+    description: X̲aad Kíl an stla k̲ʼáalaangwaay.
+author: 'CILLDI, University of Alberta'
+copyright: (c) 2017 CILLDI
+email: feedback@divvun.no
+organisation: University of Alberta
