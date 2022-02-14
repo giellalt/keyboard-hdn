@@ -7,4 +7,6 @@
 
 # Other information
 
-Add text and links as necessary.
+* [Haida keyboard suggestion](HaidaKeyboardSuggestion.md)
+
+See also [the analyser documentation](/lang-hdn/).
