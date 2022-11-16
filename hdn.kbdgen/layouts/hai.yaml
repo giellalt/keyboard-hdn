@@ -3,52 +3,19 @@ displayNames:
   hai: X̲aad Kíl
   en: Northern Haida
 decimal: ','
-modes:
-  mobile:
-    default: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-      ĝ w e g̲ t y u i o p [ ]
-      a s d k̲ g h j k l ; ʼ \
-      § x̂ x c x̲ b n m , . /
-    shift: |
-      ~ ! @ # $ % ^ & * ( ) _ +
-      Ĝ W E G̲ T Y U I O P { }
-      A S D K̲ G H J K L : " |
-      ± X̂ X C X̲ B N M < > ?
-    caps: |
-      ` 1 2 3 4 5 6 7 8 9 0 - =
-      Ĝ W E G̲ T Y U I O P [ ]
-      A S D K̲ G H J K L ; ʼ \
-      § X̂ X C X̲ B N M , . /
-    alt: |
-      ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-      q ˙ é r ˇ ¥ ú í ó , “ ‘
-      á ß ¨ f © ˍ ˝ ˚ - ä ' «
-      ˀ z . ¸ v ˘ ˜ ˛ ≤ ≥ ÷
-    alt+shift: |
-      \u{300} ⁄ € ‹ › † \u{302} ‡ ° · ‚ — ±
-      Q \u{307} É R Þ \u{A0}\u{30F} Ú Í Ó \u{326} ” ’
-      Á \u{A0}\u{311} Ð F ‸ \u{331} \u{30B} \u{30A} \u{335} Ä ´ »
-      ± Z \u{323} \u{327} V \u{306} \u{303} \u{328} „ ʔ ¿
-    caps+alt: |
-      ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-      Q ˙ É R Þ ¥ Ú Í Ó , “ ‘
-      Á SS Ð F © ˍ ˝ ˚ - Ä ' «
-      § Z . ¸ V ˘ ˜ ˛ ≤ ≥ ÷
-    ctrl: |
-      ` 1 2 3 4 5 6 7 8 9 0 \u{1F} =
-      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-      0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-  mac:
-    cmd+alt: |
-      ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-      œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
-      ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
-      § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+macOS:
+  primary:
+    layers:
+      cmd+alt: |
+        ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+        œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
+        ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
+        § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
+  deadKeys:
+    cmd+alt: ['¯']
 transforms:
   '\u{A0}\u{30F}':
-    ' ': '\u{A0}\u{30F}'
+    ' ': \u{A0}\u{30F}
     a: ȁ
     A: Ȁ
     e: ȅ
@@ -62,7 +29,7 @@ transforms:
     u: ȕ
     U: Ȕ
   '\u{A0}\u{311}':
-    ' ': '\u{A0}\u{311}'
+    ' ': \u{A0}\u{311}
     a: ȃ
     A: Ȃ
     e: ȇ
@@ -101,8 +68,8 @@ transforms:
     S: Ș
     t: ț
     T: Ț
-  .:
-    ' ': .
+  '.':
+    ' ': '.'
     a: ạ
     A: Ạ
     b: ḅ
@@ -241,22 +208,22 @@ transforms:
     G: Ḡ
     i: ī
     I: Ī
-    l: 'l\u{323}\u{304}'
-    L: 'L\u{323}\u{304}'
+    l: l\u{323}\u{304}
+    L: L\u{323}\u{304}
     o: ō
     O: Ō
-    r: 'r\u{323}\u{304}'
-    R: 'R\u{323}\u{304}'
-    s: 's\u{304}'
-    S: 'S\u{304}'
+    r: r\u{323}\u{304}
+    R: R\u{323}\u{304}
+    s: s\u{304}
+    S: S\u{304}
     u: ū
     U: Ū
     v: ǖ
     V: Ǖ
     'y': ȳ
     'Y': Ȳ
-    z: 'z\u{304}'
-    Z: 'Z\u{304}'
+    z: z\u{304}
+    Z: Z\u{304}
   ˘:
     ' ': ˘
     a: ă
@@ -328,7 +295,7 @@ transforms:
     o: ö
     O: Ö
     t: ẗ
-    T: 'T\u{308}'
+    T: T\u{308}
     u: ü
     U: Ü
     w: ẅ
@@ -341,16 +308,16 @@ transforms:
     ' ': ˚
     a: å
     A: Å
-    e: 'e\u{30A}'
-    E: 'E\u{30A}'
-    o: 'o\u{30A}'
-    O: 'O\u{30A}'
+    e: e\u{30A}
+    E: E\u{30A}
+    o: o\u{30A}
+    O: O\u{30A}
     u: ů
     U: Ů
     w: ẘ
-    W: 'W\u{30A}'
+    W: W\u{30A}
     'y': ẙ
-    'Y': 'Y\u{30A}'
+    'Y': Y\u{30A}
   ˝:
     ' ': ˝
     o: ő
@@ -381,8 +348,8 @@ transforms:
     S: Ş
     t: ţ
     T: Ţ
-    z: 'z\u{327}'
-    Z: 'Z\u{327}'
+    z: z\u{327}
+    Z: Z\u{327}
   ˛:
     ' ': ˛
     a: ą
@@ -411,10 +378,10 @@ transforms:
     I: Î
     j: ĵ
     J: Ĵ
-    m: 'm\u{302}'
-    M: 'M\u{302}'
-    'n': 'n\u{302}'
-    'N': 'N\u{302}'
+    m: m\u{302}
+    M: M\u{302}
+    'n': n\u{302}
+    'N': N\u{302}
     o: ô
     O: Ô
     s: ŝ
@@ -444,7 +411,7 @@ transforms:
     i: ǐ
     I: Ǐ
     j: ǰ
-    J: 'J\u{30C}'
+    J: J\u{30C}
     k: ǩ
     K: Ǩ
     l: ľ
@@ -463,8 +430,8 @@ transforms:
     U: Ǔ
     v: ǚ
     V: Ǚ
-    x: 'ʒ\u{30C}'
-    X: 'Ʒ\u{30C}'
+    x: ʒ\u{30C}
+    X: Ʒ\u{30C}
     z: ž
     Z: Ž
   ˍ:
@@ -474,7 +441,7 @@ transforms:
     d: ḏ
     D: Ḏ
     h: ẖ
-    H: 'H\u{331}'
+    H: H\u{331}
     k: ḵ
     K: Ḵ
     l: ḻ
@@ -554,25 +521,7 @@ longpress:
   G: G̲ Ĝ
   K: K̲
   X: X̲ X̂
-space:
-  mobile:
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
-strings:
+keyNames:
   space: k̲ʼáal
   return: sdíihl
-deadKeys:
-  mobile:
-    alt: [',', '-', ., '`', ¨, ¯, ¸, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˜, ˝]
-    alt+shift: [ʔ, ‸, ´]
-    caps+alt: [',', '-', ., '`', ¨, ¯, ´, ¸, ˀ, ˆ, ˇ, ˍ, ˘, ˙, ˚, ˛, ˜, ˝]
-  mac:
-    cmd+alt: [¯]
-targets:
-  mac: {}
-  ios:
-    legacyName: hdn_keyboards
-  android:
-    legacyName: hdn_keyboards
+
