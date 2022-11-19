@@ -3,6 +3,7 @@ displayNames:
   hai: X̲aad Kíl
   en: Northern Haida
 decimal: ','
+
 macOS:
   primary:
     layers:
@@ -13,6 +14,7 @@ macOS:
         § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
   deadKeys:
     cmd+alt: ['¯']
+
 transforms:
   '\u{A0}\u{30F}':
     ' ': \u{A0}\u{30F}
@@ -504,6 +506,7 @@ transforms:
     U: Ủ
     'y': ỷ
     'Y': Ỷ
+
 longpress:
   a: á ä
   e: é
@@ -521,7 +524,7 @@ longpress:
   G: G̲ Ĝ
   K: K̲
   X: X̲ X̂
+
 keyNames:
   space: k̲ʼáal
   return: sdíihl
-
