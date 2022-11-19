@@ -2,7 +2,8 @@ displayNames:
   hdn: X̲aad Kíl
   hai: X̲aad Kíl
   en: Northern Haida
-decimal: ','
+
+decimal: '.'
 
 macOS:
   primary:
