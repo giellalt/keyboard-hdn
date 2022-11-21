@@ -11,21 +11,21 @@ android:
       default: |
         ĝ w e g̲ t y u i o p
         a s d k̲ g h j k l ʼ
-        x̂ x c x̲ b n m ä
+        \s{shift} x̂ x c x̲ b n m ä \s{backspace}
       shift: |
         Ĝ W E G̲ T Y U I O P
         A S D K̲ G H J K L ʼ
-        X̂ X C X̲ B N M Ä
+        \s{shift} X̂ X C X̲ B N M Ä \s{backspace}
   tablet-600:
     layers:
       default: |
         ĝ w e g̲ t y u i o p
         a s d k̲ g h j k l ʼ
-        x̂ x c x̲ b n m ä
+        \s{shift} x̂ x c x̲ b n m ä \s{backspace}
       shift: |
         Ĝ W E G̲ T Y U I O P
         A S D K̲ G H J K L ʼ
-        X̂ X C X̲ B N M Ä
+        \s{shift} X̂ X C X̲ B N M Ä \s{backspace}
 
 macOS:
   primary:
