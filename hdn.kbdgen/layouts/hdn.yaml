@@ -27,6 +27,79 @@ android:
         A S D K̲ G H J K L ʼ
         \s{shift} X̂ X C X̲ B N M Ä \s{backspace}
 
+iOS:
+  primary:
+    layers:
+      default: |
+        ĝ w e g̲ t y u i o p
+        a s d k̲ g h j k l ʼ
+        \s{shift:1.25} \s{spacer:0.25} x̂ x c x̲ b n m ä \s{spacer:0.25} \s{backspace:1.25}
+      shift: |
+        Ĝ W E G̲ T Y U I O P
+        A S D K̲ G H J K L ʼ
+        \s{shift:1.25} \s{spacer:0.25} X̂ X C X̲ B N M Ä \s{spacer:0.25} \s{backspace:1.25}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0
+        - / : ; ( ) kr & @ "
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+      symbols-2: |
+        [ ] { } # % ^ * + =
+        _ \ | ~ < > € $ £ •
+        \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
+  iPad-9in:
+    layers:
+      default: |
+        ĝ w e g̲ t y u i o p \s{backspace}
+        \s{spacer:0.25} a s d k̲ g h j k l ʼ \s{return:1.25}
+        \s{shift:1.1} x̂ x c x̲ b n m ä , . \s{shift:2.4}
+      shift: |
+        Ĝ W E G̲ T Y U I O P \s{backspace}
+        \s{spacer:0.25} A S D K̲ G H J K L ʼ \s{return:1.25}
+        \s{shift:1.1} X̂ X C X̲ B N M Ä ! ? \s{shift:2.4}
+      alt: |
+        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.25} % # € & * ( ) ' " + @ \s{return:1.25}
+        \s{shift:1.1} q _ - = / ; : ! ? \s{shift:2.4}
+      alt+shift: |
+        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.25} % # € & * ( ) ' " + @ \s{return:1.25}
+        \s{shift:1.1} Q _ - = / ; : ! ? \s{shift:2.4}
+      symbols-1: |
+        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.25} @ # € & * ( ) ' " + • \s{return:1.25}
+        \s{shiftSymbols:1.1} % _ - = / ; : , . \s{shiftSymbols:2.4}
+      symbols-2: |
+        1 2 3 4 5 6 7 8 9 0 ` ´ \s{backspace}
+        \s{spacer:0.25} $ £ ¥ ^ [ ] { } — ° … \s{return:1.25}
+        \s{shiftSymbols:1.1} § | ~ ≠ \ < > ! ? \s{shiftSymbols:2.4}
+  iPad-12in:
+    layers:
+      default: |
+        ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
+        \s{spacer:1.5} ĝ w e g̲ t y u i o p @
+        \s{caps:1.75}  a s d k̲ g h j k l ʼ \s{return:1.75}
+        \s{shift:1.25} < x̂ x c x̲ b n m ä , . - \s{shift:2.25}
+      shift: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} Ĝ W E G̲ T Y U I O P *
+        \s{caps:1.75}  A S D K̲ G H J K L ʼ \s{return:1.75}
+        \s{shift:1.25} > X̂ X C X̲ B N M Ä ; : _ \s{shift:2.25}
+      alt: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} ĝ w e g̲ t y u i o p *
+        \s{caps:1.75}  a s d k̲ g h j k l ʼ \s{return:1.75}
+        \s{shift:1.25} > x̂ x c x̲ b n m ä ; : _ \s{shift:2.25}
+      alt+shift: |
+        § ! " # kr % & / ( ) = ? ` \s{backspace:1.5}
+        \s{spacer:1.5} Ĝ W E G̲ T Y U I O P *
+        \s{caps:1.75}  A S D K̲ G H J K L ʼ \s{return:1.75}
+        \s{shift:1.25} > X̂ X C X̲ B N M Ä ; : _ \s{shift:2.25}
+      symbols-1: |
+        ` 1 2 3 4 5 6 7 8 9 0 < > \s{backspace:1.5}
+        \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
+        \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
+        \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
+
 macOS:
   primary:
     layers:
