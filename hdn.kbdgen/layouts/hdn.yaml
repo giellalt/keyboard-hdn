@@ -27,57 +27,44 @@ android:
         A S D K̲ G H J K L ʼ
         X̂ X C X̲ B N M Ä
 
-# desktop keyboard layouts:
-  iso-default: |
-    ` 1 2 3 4 5 6 7 8 9 0 - =
-    ĝ w e g̲ t y u i o p [ ]
-    a s d k̲ g h j k l ; ʼ \
-    § x̂ x c x̲ b n m , . /
-  # shift+caps?
-  iso-shift: |
-    ~ ! @ # $ % ^ & * ( ) _ +
-    Ĝ W E G̲ T Y U I O P { }
-    A S D K̲ G H J K L : " |
-    ± X̂ X C X̲ B N M < > ?
-  # caps " #
-  iso-caps: |
-    ` 1 2 3 4 5 6 7 8 9 0 - =
-    Ĝ W E G̲ T Y U I O P [ ]
-    A S D K̲ G H J K L ; ʼ \
-    § X̂ X C X̲ B N M , . /
-  # opt
-  iso-alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    q ˙ é r ˇ ¥ ú í ó , “ ‘
-    á ß ¨ f © ˍ ˝ ˚ - ä ' «
-    ˀ z . ¸ v ˘ ˜ ˛ ≤ ≥ ÷
-  # opt+shift+cmd?+caps?
-  iso-alt+shift: |
-    \u{300} ⁄ € ‹ › † \u{302} ‡ ° · ‚ — ±
-    Q \u{307} É R Þ \u{A0}\u{30F} Ú Í Ó \u{326} ” ’
-    Á \u{A0}\u{311} Ð F ‸ \u{331} \u{30B} \u{30A} \u{335} Ä ´ »
-    ± Z \u{323} \u{327} V \u{306} \u{303} \u{328} „ ʔ ¿
-  # opt+caps
-  iso-caps+alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    Q ˙ É R Þ ¥ Ú Í Ó , “ ‘
-    Á SS Ð F © ˍ ˝ ˚ - Ä ' «
-    § Z . ¸ V ˘ ˜ ˛ ≤ ≥ ÷
-  # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
-  iso-ctrl: |
-    ` 1 2 3 4 5 6 7 8 9 0 \u{1F} =
-    \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-    \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-    0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-  # cmd+opt+caps?
-  osx-cmd+alt: |
-    ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
-    œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
-    ¯ ß ð ƒ © ˍ ˝ ˚ - … æ «
-    § ’ . ¸ ˇ ˘ ˜ ˛ ≤ ≥ ÷
 macOS:
   primary:
     layers:
+      default: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+        ĝ w e g̲ t y u i o p [ ]
+        a s d k̲ g h j k l ; ʼ \
+        § x̂ x c x̲ b n m , . /
+      shift: |
+        ~ ! @ # $ % ^ & * ( ) _ +
+        Ĝ W E G̲ T Y U I O P { }
+        A S D K̲ G H J K L : " |
+        ± X̂ X C X̲ B N M < > ?
+      caps: |
+        ` 1 2 3 4 5 6 7 8 9 0 - =
+        Ĝ W E G̲ T Y U I O P [ ]
+        A S D K̲ G H J K L ; ʼ \
+        § X̂ X C X̲ B N M , . /
+      alt: |
+        ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+        q ˙ é r ˇ ¥ ú í ó , “ ‘
+        á ß ¨ f © ˍ ˝ ˚ - ä ' «
+        ˀ z . ¸ v ˘ ˜ ˛ ≤ ≥ ÷
+      alt+shift: |
+        \u{300} ⁄ € ‹ › † \u{302} ‡ ° · ‚ — ±
+        Q \u{307} É R Þ \u{A0}\u{30F} Ú Í Ó \u{326} ” ’
+        Á \u{A0}\u{311} Ð F ‸ \u{331} \u{30B} \u{30A} \u{335} Ä ´ »
+        ± Z \u{323} \u{327} V \u{306} \u{303} \u{328} „ ʔ ¿
+      alt+caps: |
+        ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
+        Q ˙ É R Þ ¥ Ú Í Ó , “ ‘
+        Á SS Ð F © ˍ ˝ ˚ - Ä ' «
+        § Z . ¸ V ˘ ˜ ˛ ≤ ≥ ÷
+      ctrl: |
+        ` 1 2 3 4 5 6 7 8 9 0 \u{1F} =
+        \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+        \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
+        0 \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
       cmd+alt: |
         ` ¡ ™ £ ¢ § ˆ ¶ • ª º – ≠
         œ ˙ ´ ® þ ¥ ¨ ’ ø , “ ‘
