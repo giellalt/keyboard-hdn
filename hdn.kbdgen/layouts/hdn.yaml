@@ -16,6 +16,24 @@ macOS:
   deadKeys:
     cmd+alt: ['¯']
 
+longpress:
+  a: á ä
+  e: é
+  i: í
+  o: ó
+  u: ú
+  g: g̲ ĝ
+  k: k̲
+  x: x̲ x̂
+  A: Á Ä
+  E: É
+  I: Í
+  O: Ó
+  U: Ú
+  G: G̲ Ĝ
+  K: K̲
+  X: X̲ X̂
+
 transforms:
   '\u{A0}\u{30F}':
     ' ': \u{A0}\u{30F}
@@ -507,24 +525,6 @@ transforms:
     U: Ủ
     'y': ỷ
     'Y': Ỷ
-
-longpress:
-  a: á ä
-  e: é
-  i: í
-  o: ó
-  u: ú
-  g: g̲ ĝ
-  k: k̲
-  x: x̲ x̂
-  A: Á Ä
-  E: É
-  I: Í
-  O: Ó
-  U: Ú
-  G: G̲ Ĝ
-  K: K̲
-  X: X̲ X̂
 
 keyNames:
   space: k̲ʼáal
