@@ -5,17 +5,27 @@ displayNames:
 
 decimal: '.'
 
-
-modes:
-# mobile layouts:
-  mobile-default: |
-    ĝ w e g̲ t y u i o p
-    a s d k̲ g h j k l ʼ
-    x̂ x c x̲ b n m ä
-  mobile-shift: |
-    Ĝ W E G̲ T Y U I O P
-    A S D K̲ G H J K L ʼ
-    X̂ X C X̲ B N M Ä
+android:
+  primary:
+    layers:
+      default: |
+        ĝ w e g̲ t y u i o p
+        a s d k̲ g h j k l ʼ
+        x̂ x c x̲ b n m ä
+      shift: |
+        Ĝ W E G̲ T Y U I O P
+        A S D K̲ G H J K L ʼ
+        X̂ X C X̲ B N M Ä
+  tablet-600:
+    layers:
+      default: |
+        ĝ w e g̲ t y u i o p
+        a s d k̲ g h j k l ʼ
+        x̂ x c x̲ b n m ä
+      shift: |
+        Ĝ W E G̲ T Y U I O P
+        A S D K̲ G H J K L ʼ
+        X̂ X C X̲ B N M Ä
 
 # desktop keyboard layouts:
   iso-default: |
