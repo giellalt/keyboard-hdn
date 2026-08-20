@@ -1,11 +1,10 @@
 # Documentation for the Northern Haida keyboards
 
+## Layouts
 
-# Layouts
+- [Layout overview](layout.md)
 
--   [Layout overview](layout.html)
-
-# Other information
+## Other information
 
 * [Haida keyboard suggestion](HaidaKeyboardSuggestion.md)
 
